@@ -69,3 +69,10 @@ function sendToWhatsapp(){
 	var url="https://wa.me/9999987527?text="+"Name :"+name+"%0a"+"Start Date: "+startDate+"%0a"+"End Date: "+endDate+"%0a";
 	window.open(url,'_blank').focus();
 }
+
+function sendMail(){
+	var name=document.getElementById('cname').value;
+	var email=document.getElementById('cemail').value;
+	var phone=document.getElementById('cphone').value;
+	window.location.replace(`mailto:redinnmanali@gmail.com?body=Name: ${name}, Email: ${email}, Phone: ${phone}&subject=Room Booking`)
+}
