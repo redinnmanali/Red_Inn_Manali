@@ -66,7 +66,7 @@ function sendToWhatsapp(){
 	let startDate=document.getElementById('startDate').value;
 	let endDate=document.getElementById('endDate').value;
 	let name=document.getElementById('name').value;
-	var url="https://wa.me/9999987527?text="+"Name :"+name+"%0a"+"Start Date: "+startDate+"%0a"+"End Date: "+endDate+"%0a";
+	var url="https://wa.me/919999987527?text="+"Name :"+name+"%0a"+"Start Date: "+startDate+"%0a"+"End Date: "+endDate+"%0a";
 	window.open(url,'_blank').focus();
 }
 
