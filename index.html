@@ -370,22 +370,22 @@
             </div>
             <div class="row">
                <div class="col-md-6">
-                  <form action="mailto:redinnmanali@gmail.com" target="_top" method="post" id="request" class="main_form">
+                  <form class="main_form">
                      <div class="row">
                         <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                           <input id="cname" class="contactus" placeholder="Name" type="type" name="Name"> 
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                           <input id="cmail" class="contactus" placeholder="Email" type="type" name="Email"> 
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                           <input id="cphone" class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
                         </div>
                         <!-- <div class="col-md-12">
                            <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
                         </div> -->
                         <div class="col-md-12">
-                           <button class="send_btn">Send Mail</button>
+                           <button onclick="sendMail()" class="send_btn">Send Mail</button>
                         </div>
                      </div>
                   </form>
